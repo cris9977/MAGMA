@@ -1,0 +1,63 @@
+ a {
+     color: white;
+     text-align: right;
+ }
+ 
+ body {
+     background-image: url("../magma/fondo.jpg");
+ }
+ 
+ .primerTitulo {
+     font-family: 'Lato-Light', sans-serif;
+     color: #F84848;
+     font-size: 50px;
+     text-align: center;
+     margin-top: 50px;
+ }
+ 
+ .segundoTitulo {
+     font-family: 'Lato-Light', sans-serif;
+     color: white;
+     font-size: 25px;
+     text-align: center;
+     margin-top: 50px;
+ }
+ 
+ .cambiaColor {
+     color: white;
+ }
+ 
+ .cambiaColor:hover {
+     color: #F84848;
+ }
+ 
+ .cambiaColorEspecial {
+     color: #F84848;
+ }
+ 
+ .cambiaColorEspecial:hover {
+     color: white;
+ }
+ 
+ .subrallado {
+     text-decoration: underline;
+ }
+ 
+ #tercer-Titulo ul {
+     list-style-type: none;
+     color: #F84848;
+     text-align: center;
+ }
+ 
+ #tercer-Titulo li {
+     display: inline;
+     text-align: center;
+     font-size: 25px;
+     margin: 50px 10px 0 0;
+     color: white;
+ }
+ 
+ .bull-red::before {
+     color: #F84848;
+     content: "• ";
+ }
